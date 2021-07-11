@@ -1,5 +1,7 @@
 import sqlite3
 import json
+import os
+import sys
 def read_data(nom):
     with open(nom, "r", encoding="utf-8") as f:
         return json.load(f)
